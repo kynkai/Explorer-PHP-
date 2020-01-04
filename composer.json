@@ -33,5 +33,5 @@
         "omnipay/authorizenet": "3.x@dev"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": true
 }
