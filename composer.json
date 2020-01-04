@@ -2,6 +2,7 @@
     "name": "kynkai/explorer-php",
     "type": "library",
     "description": "A file manager application that is included with releases",
+    "license": "MIT",
     "keywords": [
         "file manager",
         "manager",
@@ -30,5 +31,7 @@
     "require": {
         "league/omnipay": "^3.0",
         "omnipay/authorizenet": "3.x@dev"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }
