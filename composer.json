@@ -1,0 +1,19 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Explorer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "league/omnipay": "^3.0",
+        "omnipay/authorizenet": "3.x@dev"
+    }
+}
